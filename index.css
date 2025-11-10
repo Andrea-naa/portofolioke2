@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #0a192f; /* biru dongker */
+  color: #fff;
+  min-height: 100vh;
+}
+
+.top-nav {
+  background-color: #0a192f;
+  padding: 20px;
+}
+
+.top-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.top-nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.top-nav ul li a:hover {
+  color: #64ffda;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.profile-box {
+  background-color: #112240;
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #64ffda;
+}
+
+.profile-content {
+  flex: 1;
+}
+
+.profile-content h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.profile-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  background-color: #64ffda;
+  color: #0a192f;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #52e0c4;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid #64ffda;
+  color: #64ffda;
+}
+
+.btn-outline:hover {
+  background-color: #64ffda;
+  color: #0a192f;
+}
